@@ -1,24 +1,20 @@
 # Frontend Boilerplate Light
 
-Front-end boilerplate lightweight version
+My template for #PureCSS project
 
 ## Contains
 
 *   sass
 *   sass breakpoint mixin
-    *   largedesktop
-    *   desktop
     *   tablet
-    *   tabletmobile
     *   mobile
-*   jquery
 *   browser-sync
 *   compile sass using node-sass
 
 ## Getting Started
 
 ```
-$ git clone https://github.com/AsyrafHussin/frontend-boilerplate-light.git <project-name>
+$ git clone https://github.com/AsyrafHussin/purecss-template.git <project-name>
 $ cd <project-name>
 $ rm -rf ./.git && rm -rf ./README.md
 $ npm install
