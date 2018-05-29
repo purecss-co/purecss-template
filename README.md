@@ -1,4 +1,4 @@
-# Frontend Boilerplate Light
+# PureCSS-Template
 
 My template for #PureCSS project
 
