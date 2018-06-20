@@ -17,6 +17,19 @@ $logo-color: #000;
     position: $position;
 }
 
+@mixin breakpoint($point) {
+    @if $point==tablet {
+        @media (max-width: 1024px) and (min-width: 768px) {
+            @content ;
+        }
+    }
+    @else if $point==mobile {
+        @media (max-width: 480px) and (min-width: 320px) {
+            @content ;
+        }
+    }
+}
+
 html, body{
   width: 100%;
   height: 100%;
