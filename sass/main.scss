@@ -17,6 +17,12 @@ $logo-color: #000;
     position: $position;
 }
 
+@mixin square($width,$height,$background) {
+  width: $width;
+  height: $height;
+  background: $background;
+}
+
 @mixin breakpoint($point) {
     @if $point==tablet {
         @media (max-width: 1024px) and (min-width: 768px) {
