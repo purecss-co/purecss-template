@@ -14,7 +14,7 @@ My template for #PureCSS project
 ## Getting Started
 
 ```
-$ git clone https://github.com/AsyrafHussin/purecss-template.git <project-name>
+$ git clone https://github.com/purecss-co/purecss-template.git <project-name>
 $ cd <project-name>
 $ rm -rf ./.git && rm -rf ./README.md
 $ npm install
