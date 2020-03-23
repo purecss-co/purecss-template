@@ -2,21 +2,6 @@
 $bg-color: #fff;
 $logo-color: #000;
 
-// mixins
-@mixin center {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-}
-
-@mixin pseudo($position: absolute, $content: "") {
-  content: $content;
-  position: $position;
-}
-
 @mixin square($width, $height, $background) {
   width: $width;
   height: $height;
@@ -35,6 +20,18 @@ $logo-color: #000;
   }
 }
 
+div {
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
 html,
 body {
   width: 100%;
@@ -44,8 +41,4 @@ body {
 body {
   background: $bg-color;
   overflow: hidden;
-}
-
-.logo {
-  @include center;
 }
