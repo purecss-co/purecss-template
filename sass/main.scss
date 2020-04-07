@@ -2,7 +2,7 @@
 $bg-color: #fff;
 $logo-color: #000;
 
-@mixin square($width, $height, $background) {
+@mixin shape($width, $height, $background) {
   width: $width;
   height: $height;
   background: $background;
