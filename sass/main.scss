@@ -2,24 +2,6 @@
 $bg-color: #fff;
 $logo-color: #000;
 
-@mixin shape($width, $height, $background) {
-  width: $width;
-  height: $height;
-  background: $background;
-}
-
-@mixin breakpoint($point) {
-  @if $point==tablet {
-    @media (max-width: 1024px) and (min-width: 768px) {
-      @content;
-    }
-  } @else if $point==mobile {
-    @media (max-width: 480px) and (min-width: 320px) {
-      @content;
-    }
-  }
-}
-
 html,
 body {
   width: 100%;
