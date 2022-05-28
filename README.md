@@ -4,12 +4,9 @@ My template for #PureCSS project
 
 ## Contains
 
-*   sass
-*   sass breakpoint mixin
-    *   tablet
-    *   mobile
-*   browser-sync
-*   compile sass using node-sass
+- sass
+- browser-sync
+- compile sass using node-sass
 
 ## Getting Started
 
