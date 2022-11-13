@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "concurrently \"npm run serve\" \"npm run watch\"",
     "serve": "browser-sync start --server --files './css/*.css, *.html, !node_modules/**/*'",
-    "watch": "sass --watch ./sass/main.scss ./css/main.css --style compressed",
-    "dev": "concurrently \"npm run serve\" \"npm run watch\""
+    "watch": "sass --watch ./sass/main.scss ./css/main.css --no-error-css --style compressed"
   },
   "keywords": [],
   "author": "",
