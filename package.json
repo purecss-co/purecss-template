@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "browser-sync start --server --files './css/*.css, *.html, !node_modules/**/*'",
-    "watch": "node-sass --watch ./sass/main.scss ./css/main.css --output-style compressed",
+    "watch": "sass --watch ./sass/main.scss ./css/main.css --style compressed",
     "dev": "concurrently \"npm run serve\" \"npm run watch\""
   },
   "keywords": [],
@@ -14,6 +14,6 @@
   "devDependencies": {
     "browser-sync": "^2.27.10",
     "concurrently": "^7.5.0",
-    "node-sass": "^8.0.0"
+    "sass": "^1.56.1"
   }
 }
