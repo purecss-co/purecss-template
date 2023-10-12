@@ -14,6 +14,6 @@
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "concurrently": "^8.2.1",
-    "sass": "^1.69.2"
+    "sass": "^1.69.3"
   }
 }
