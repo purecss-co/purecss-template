@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.29.3",
+    "browser-sync": "^3.0.2",
     "concurrently": "^8.2.2",
     "sass": "^1.69.5"
   }
